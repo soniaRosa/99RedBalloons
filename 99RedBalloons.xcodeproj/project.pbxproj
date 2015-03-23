@@ -13,6 +13,7 @@
 		D21F77451ABE271D009DABB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21F77441ABE271D009DABB7 /* Images.xcassets */; };
 		D21F77481ABE271D009DABB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D21F77461ABE271D009DABB7 /* LaunchScreen.xib */; };
 		D21F77541ABE271D009DABB7 /* _9RedBalloonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21F77531ABE271D009DABB7 /* _9RedBalloonsTests.swift */; };
+		D22104631ABF2FC600C5CA94 /* Balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22104621ABF2FC600C5CA94 /* Balloon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D21F774D1ABE271D009DABB7 /* 99RedBalloonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 99RedBalloonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21F77521ABE271D009DABB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D21F77531ABE271D009DABB7 /* _9RedBalloonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9RedBalloonsTests.swift; sourceTree = "<group>"; };
+		D22104621ABF2FC600C5CA94 /* Balloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balloon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				D21F773D1ABE271D009DABB7 /* AppDelegate.swift */,
 				D21F773F1ABE271D009DABB7 /* ViewController.swift */,
+				D22104621ABF2FC600C5CA94 /* Balloon.swift */,
 				D21F77411ABE271D009DABB7 /* Main.storyboard */,
 				D21F77441ABE271D009DABB7 /* Images.xcassets */,
 				D21F77461ABE271D009DABB7 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D21F77401ABE271D009DABB7 /* ViewController.swift in Sources */,
+				D22104631ABF2FC600C5CA94 /* Balloon.swift in Sources */,
 				D21F773E1ABE271D009DABB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				D21F77591ABE271D009DABB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D21F775A1ABE271D009DABB7 /* Build configuration list for PBXNativeTarget "99RedBalloonsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				D21F775C1ABE271D009DABB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
